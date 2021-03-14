@@ -34,7 +34,7 @@ include_once 'atas.php';
                     echo '<td>'.$uas.'</td>';
                     echo '<td>'.$tugas.'</td>';
                     $nilai_akhir = ($uts + $uas + $tugas)/3;
-                    echo '<td>'.$nilai_akhir.'</td>';
+                    echo '<td>'.number_format($nilai_akhir,2,',','.').'</td>';
                     echo '<tr/>';
                 ?>
             </tbody>
